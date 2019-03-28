@@ -1,3 +1,3 @@
-This document is available in multiple formats:
-* [PDF](openacc-optimise.pdf)
-* [Markdown](openacc-optimise.md)
+# OpenACC Exercises
+
+1. [Image reconstruction optimisation exercise](openacc-reconstruct)
