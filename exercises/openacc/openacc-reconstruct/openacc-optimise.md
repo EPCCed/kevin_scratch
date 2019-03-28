@@ -59,6 +59,7 @@ View the resulting image:
 
 ```bash
 # To view the resulting image image2048x2048.pgm
+display image2048x2048.pgm
 ```
 
 You should be able to see that the picture is starting to become clearer.
