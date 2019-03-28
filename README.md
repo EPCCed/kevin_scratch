@@ -29,7 +29,7 @@ Note that the Wednesday and Thursday sessions are in different rooms.
 ### Day Two
 
 - 10:00 Recap
-- 10:10 [OpenCL programming](lectures/opencl.html)
+- 10:10 [OpenCL programming](lectures/opencl/opencl.html)
 - 10:30 OpenACC directives
 - 11:00 Break
 - 11:20 [OpenCL](exercises/opencl) and / or directives exercise

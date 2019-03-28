@@ -1,3 +1,6 @@
-# OpenCL lectures
+# Lecture material
 
-- [Introduction to OpenCL](opencl.html)
+- [Programming in CUDA]
+- [Introduction to OpenCL](opencl)
+- [OpenACC programming]
+- [Kokkos]
