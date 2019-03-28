@@ -1,4 +1,6 @@
 # Practical Exercises
 
-1. [Introduction to OpenCL](opencl-intro)
-2. [Optimisation of an OpenCL program](opencl-optimise)
+1. [CUDA exerciees]
+2. [OpenCL exercises](opencl)
+3. [OpenACC exercises]
+4. [Kokkos exercises]
