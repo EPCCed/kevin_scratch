@@ -20,9 +20,9 @@ You start with an image that looks like this:
 
 Which has been generated from the original:
 
-```
-<img src = ./images/EDINB00034_2048x2048.jpg width=400>
-```
+
+![Original image](./images/EDINB00034_2048x2048.jpg)
+
 On the left is an image of Edinburgh Castle, processed such that the edges
 between light and dark areas replace the original picture. Your job is to
 reconstruct the initial image. This is an artificial thing to do, but it
