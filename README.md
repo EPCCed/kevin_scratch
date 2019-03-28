@@ -19,7 +19,7 @@ Note that the Wednesday and Thursday sessions are in different rooms.
 - 12:00 A first CUDA exercise
 - 13:00 Lunch
 
-- 14:00 CUDA pptimisations
+- 14:00 CUDA optimisations
 - 14:20 Optimisation exercise
 - 15:00 Break
 - 15:20 Constant and shared memory
@@ -28,11 +28,11 @@ Note that the Wednesday and Thursday sessions are in different rooms.
 
 ### Day Two
 
-- 10:00 Recap
-- 10:10 OpenCL programming
+- 10:00 Recap / questions
+- 10:10 [OpenCL programming](lectures/opencl.html)
 - 10:30 OpenACC directives
 - 11:00 Break
-- 11:20 OpenCL and / or sirectives exercise
+- 11:20 [OpenCL](exercises) and / or directives exercise
 - 12:00 Guest Lecture Alan Gray (NVIDiA): Overview of NVIDIA Volta
 - 13:00 Lunch
 
