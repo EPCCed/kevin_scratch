@@ -32,7 +32,8 @@ Note that the Wednesday and Thursday sessions are in different rooms.
 - 10:10 [OpenCL programming](lectures/opencl/opencl.html)
 - 10:30 [OpenACC](lectures/openacc/openacc.html) directives
 - 11:00 Break
-- 11:20 [OpenCL](exercises/opencl) and / or directives exercise
+- 11:20 [OpenCL](exercises/opencl) and / or [OpenACC](exercises/openacc)
+        directives exercise
 - 12:00 Guest Lecture Alan Gray (NVIDiA): Overview of NVIDIA Volta
 - 13:00 Lunch
 

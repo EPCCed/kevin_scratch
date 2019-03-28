@@ -16,12 +16,13 @@ using OpenACC.
 
 You start with an image that looks like this:
 
-<img src=./images/input.jpeg width=400>
+![Input image](./images/input.jpeg)
 
 Which has been generated from the original:
 
-<img src=./images/EDINB00034_2048x2048.jpg width=400>
-
+```
+<img src = ./images/EDINB00034_2048x2048.jpg width=400>
+```
 On the left is an image of Edinburgh Castle, processed such that the edges
 between light and dark areas replace the original picture. Your job is to
 reconstruct the initial image. This is an artificial thing to do, but it
