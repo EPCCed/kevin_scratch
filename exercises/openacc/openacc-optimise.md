@@ -13,23 +13,15 @@ and source code copyright The University of Edinburgh 2016.
 This exercise involves porting an image reconstruction application to the GPU
 using OpenACC. 
 
-<table>
-<tr>
-<td>
+
 You start with an image that looks like this:
 
 <img src=./images/input.jpeg width=400>
-</td>
-<td>
+
 Which has been generated from the original:
 
 <img src=./images/EDINB00034_2048x2048.jpg width=400>
 
-
-</td>
-
-<tr>
-</table>
 On the left is an image of Edinburgh Castle, processed such that the edges
 between light and dark areas replace the original picture. Your job is to
 reconstruct the initial image. This is an artificial thing to do, but it
@@ -60,15 +52,12 @@ $ make
 $ qsub submit.sh
 ```
 
------
+
 View the resulting image:
 
 
-```python
-# Execute this cell to view the resulting image
-!cd src; pgmtoppm white image2048x2048.pgm > output.ppm; ppmtojpeg output.ppm > output.jpeg; cd ..
-from IPython.core.display import Image
-Image('src/output.jpeg', width=400)
+```bash
+# To view the resulting image image2048x2048.pgm
 ```
 
 You should be able to see that the picture is starting to become clearer.
@@ -88,12 +77,12 @@ simplifies the computation as it allows the edge pixels to be treated in
 the same manner as other pixels. (The edge array, which holds the original
 edge data, does not have require a halo.)</p>
 
-Using the notebook (you will need a separate window or tab), navigate to the
-correct directory for the source code you want (<code>src_c</code> or
-<code>src_fortran</code>) and edit the source file.
+Using the correct directory for the source code you want
+(<code>src_c</code> or <code>src_fortran</code>) and edit the source file.
   
 
 ## Offloading to GPU with parallel loop construct
+
 Edit the file <code>reconstruct.f90</code> (fortran) or
 <code>reconstruct.c</code> (C). For each iteration of the main loop (with
 index <code>iter</code>), we want to offload the loops with index i,j to
@@ -105,6 +94,7 @@ the image), and compare the time to the previous run.
 
 
 ## Combining parallel regions
+
 You will see that the above "accelerated" code takes much longer than when
 run on the CPU. The reason for this is unnecessary data CPU to GPU copies
 associated with each parallel region.
