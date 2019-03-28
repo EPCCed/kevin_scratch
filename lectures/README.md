@@ -2,5 +2,5 @@
 
 - [Programming in CUDA]
 - [Introduction to OpenCL](opencl)
-- [OpenACC programming]
+- [Directives and OpenACC programming](openacc)
 - [Kokkos]
